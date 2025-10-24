@@ -4,11 +4,11 @@ import {NgStyle} from '@angular/common';
 @Component({
   selector: 'app-hero-section',
   imports: [
-    NgStyle,
+    NgStyle
   ],
   templateUrl: './hero-section.html',
   styleUrl: './hero-section.css',
 })
 export class HeroSection {
-heroBg='assets/images/hero-bg.png'
+heroBg='assets/images/heroBg.png';
 }
